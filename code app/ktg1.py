@@ -630,7 +630,7 @@ def app():
         else:
             col1, col2, col3 = st.columns([1, 2, 1])
             with col2:
-                st.image(r"C:\Users\LENOVO\.vscode\here we go\images coding\logo.png", width=300)
+                st.image("images coding/logo.png", width=300)
             st.write('Hello! Welcome to Potago!')
             st.title('Know more about us here!✦🥔')
             st.write('Info ladang kami')
@@ -643,12 +643,12 @@ def app():
             with col1:
                 st.write("Penanaman 14 hari dari 80 hari untuk panen")
             with col2:
-                st.image(r"C:\Users\LENOVO\.vscode\here we go\images coding\14 hari.jpg", caption='Tanaman kentang umur 14 hari', width=250)
+                st.image("images coding/14 hari.jpg", width=250)
             col1, col2 = st.columns([2,1])
             with col1:
                 st.write("Penanaman 50 hari dari 80 hari untuk panen")
             with col2:
-                st.image(r"C:\Users\LENOVO\.vscode\here we go\images coding\50 hari.jpg", caption='Tanaman kentang umur 50 hari', width=250)
+                st.image("images coding/50 hari.jpg", caption='Tanaman kentang umur 50 hari', width=250)
 
             if st.button('Pembelian'):
                 st.session_state.step = 2
@@ -671,9 +671,9 @@ def app():
 
         col1, col2 = st.columns(2)
         with col1:
-            st.image(r"C:\Users\LENOVO\.vscode\here we go\images coding\kentang kecil.jpeg", caption='Rp 8.700', width=250)
+            st.image("images coding/kentang kecil.jpeg", caption='Rp 8.700', width=250)
         with col2:
-            st.image(r"C:\Users\LENOVO\.vscode\here we go\images coding\kentang besar.jpg", caption='Rp 10.300', width=250)
+            st.image("images coding/kentang besar.jpg", caption='Rp 10.300', width=250)
 
         col1, col2 = st.columns([2,1])
         with col1:
